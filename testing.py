@@ -14,7 +14,7 @@ from sklearn.preprocessing import RobustScaler
 wine_net = NeuralNetwork(13,2,[5,3],3)
 
 #Load dataset and break it into training and test sets
-wine_data = pd.read_csv(r'iris.csv')
+wine_data = pd.read_csv(r'wine.csv')
 cols = wine_data.columns
 y = wine_data['label']
 
